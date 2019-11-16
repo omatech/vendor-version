@@ -1,0 +1,21 @@
+{
+    "name": "omatech/vendor-version",
+    "description": "Check composer installation and get information of packages installed in vendor folder",
+    "license": "MIT",
+    "authors":[
+        {
+            "name":"Agusti Pons",
+            "email":"apons@omatech.com",
+            "role":"CTO"
+        }
+    ],
+
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.4.3"
+    }
+}
