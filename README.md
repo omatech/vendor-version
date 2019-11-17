@@ -16,4 +16,7 @@ if ($res)
 ````
 
 # Test
+
+```
 phpunit --bootstrap vendor/autoload.php tests
+```
