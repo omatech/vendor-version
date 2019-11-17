@@ -1,5 +1,6 @@
 # Usage
 
+```
 $vv = new VendorVersion();
 $vv->init(YOUR_PROJECT_ROOT_FOLDER);
 $res=$vv->isInstalled('phpunit/phpunit');
@@ -12,6 +13,7 @@ if ($res)
     $version=$vv->getVersion('phpunit/phpunit');
     // now $version have the exact phpunit/phpunit installed
 }
+````
 
 # Test
 phpunit --bootstrap vendor/autoload.php tests
